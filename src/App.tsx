@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import React from 'react';
 import { css, jsx } from '@emotion/core';
+import Background from './Background';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         overflow: hidden;
       `}
     >
+      <Background />
       <main
         css={css`
           height: 100%;
