@@ -2,7 +2,7 @@
   "name": "arkadiuszmazurkiewicz.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "arkadiuszmazurkiewicz.com",
+  "homepage": "https://arkadiuszmazurkiewicz.com",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@testing-library/jest-dom": "^4.2.4",
