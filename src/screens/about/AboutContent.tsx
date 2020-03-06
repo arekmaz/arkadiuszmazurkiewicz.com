@@ -2,6 +2,8 @@
 import React from 'react';
 import { jsx, css } from '@emotion/core';
 import MyGithubButton from '../../components/MyGithubButton';
+import MyLinkedinButton from '../../components/MyLinkedinButton';
+import Space from '../../components/Space';
 
 export default function AboutContent() {
   return (
@@ -30,9 +32,8 @@ export default function AboutContent() {
           <br /> {`⋯work in progress⋯`}
         </h3>
         <MyGithubButton />
-        <a href="https://www.linkedin.com/in/arkadiusz-mazurkiewicz-6a6b14120/">
-          {`My Linkedin page`}
-        </a>
+        <Space y={5} />
+        <MyLinkedinButton />
       </section>
     </main>
   );
