@@ -1,2 +1,2 @@
-# Redirect default Netlify subdomain to primary domain
-https://hopeful-meitner-49f932.netlify.com/* https://arkadiuszmazurkiewicz.com/:splat 301!
+# Redirect each path to index.html for client side routing
+/* /index.html 200
