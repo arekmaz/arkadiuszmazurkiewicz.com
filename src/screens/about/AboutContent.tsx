@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import React from 'react';
 import { jsx, css } from '@emotion/core';
+import MyGithubButton from '../../components/MyGithubButton';
 
 export default function AboutContent() {
   return (
@@ -28,9 +29,7 @@ export default function AboutContent() {
           {`This is my personal Website`}
           <br /> {`⋯work in progress⋯`}
         </h3>
-        <a href="https://github.com/arekmaz">
-          {`My Github page`}
-        </a>
+        <MyGithubButton />
         <a href="https://www.linkedin.com/in/arkadiusz-mazurkiewicz-6a6b14120/">
           {`My Linkedin page`}
         </a>
