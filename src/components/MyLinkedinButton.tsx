@@ -14,7 +14,7 @@ export default function MyLinkedinButt(
         display: flex;
         padding: 5px;
       `}
-      href="https://github.com/arekmaz"
+      href="https://www.linkedin.com/in/arkadiusz-mazurkiewicz-6a6b14120/"
       role="button"
       target="_blank"
       rel="noopener noreferrer"
