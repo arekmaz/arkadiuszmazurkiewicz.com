@@ -1,3 +1,8 @@
+import React from "react";
+import { Global, css } from "@emotion/core";
+const globalStyles = `
+@import-normalize;
+
 h1,
 h2,
 h3,
@@ -26,4 +31,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas,
     'Courier New', monospace;
+}
+`;
+export default function GlobalStyles() {
+  return <Global styles={css(globalStyles)} />;
 }
