@@ -1,1 +1,1 @@
-This is a repo for [my personal website](arkadiuszmazurkiewicz.com).
+This is a repo for [my personal website](https://arkadiuszmazurkiewicz.com).
